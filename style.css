@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+h1,
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+body {
+  background-color: #f5f7fa;
+  background-image: url('Image\ 4-26-23\ at\ 12.52\ PM.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 105%;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.guess {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-row-gap: 0px;
+  font-size: 5rem;
+  margin-left: 38.6rem;
+  position: relative;
+  bottom: 230px;
+}
+.count-down {
+  font-family: 'Permanent Marker', cursive;
+  border-width: 5px;
+  position: relative;
+  bottom: 200px;
+  right: 100px;
+}
+
+button {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+  transition: 0.4s;
+}
+span {
+  font-family: 'Permanent Marker', cursive;
+  border: black solid 3px;
+  border-radius: 10px;
+  background-color: #f4e5c2;
+}
+
+#hang-man {
+  border: solid 5px black;
+  margin-top: 10px;
+  background-color: #f4e5c2;
+  height: 350px;
+  width: 400px;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.base {
+  height: 250px;
+  width: 400px;
+  mix-blend-mode: multiply;
+  position: relative;
+  top: 220px;
+  right: 10px;
+  opacity: .1;
+}
+
+.post1 {
+  height: 250px;
+  width: 500px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 198px;
+  right: 100px;
+  opacity: .1;
+}
+.postframe {
+  height: 250px;
+  width: 300px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 500px;
+  left: 30px;
+  opacity: .1;
+}
+.rope {
+  height: 75px;
+  width: 170px;
+  height: 50px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 702.5px;
+  left: 123.5px;
+  opacity: .1;
+}
+.head {
+  height: 40px;
+  width: 50px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 670px;
+  opacity: .1;
+}
+.body {
+  height: 70px;
+  width: 150px;
+  mix-blend-mode: multiply;
+  position: relative;
+  right: 95.5px;
+  bottom: 610px;
+  opacity: .1;
+}
+.left-arm {
+  height: 70px;
+  width: 75px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 710px;
+  left: 160px;
+  opacity: .1;
+}
+.right-arm {
+  height: 70px;
+  width: 75px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 710px;
+  left: 82px;
+  opacity: .1;
+}
+.left-leg {
+  height: 90px;
+  width: 90px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 643px;
+  right: 4px;
+  opacity: .1;
+}
+.right-leg {
+  height: 90px;
+  width: 90px;
+  mix-blend-mode: multiply;
+  position: relative;
+  bottom: 643px;
+  right: 100px;
+  opacity: .1;
+}
